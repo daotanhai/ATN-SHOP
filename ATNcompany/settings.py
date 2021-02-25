@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'ATNcompany.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'df5aebl6ivj031',
-        'USER':'vftnodxkitlcyb',
-        'PASSWORD':'27aae806e8ca43e8e67416ed13ef6ec4a1617052372cfec5ad097383f98d87fd',
-        'HOST':'ec2-52-87-135-240.compute-1.amazonaws.com',
+        'NAME': 'd5192ojbjnl1u6',
+        'USER':'lfxyemofsfzdla',
+        'PASSWORD':'b426a6564603fc407bf5335b3cccd9bee7b17a76c9c2555bb3299c54409a182c',
+        'HOST':'ec2-34-230-167-186.compute-1.amazonaws.com',
         'PORT':'5432'
     }
 }
