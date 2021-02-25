@@ -340,10 +340,10 @@ body,
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0px;
-    color: black;
+    color: white;
     padding: 9px 26px 14px 29px;
     text-transform: none;
-    background: #719b5c;
+    background: black;
     border-radius: 2px;
     display: inline-block;
     margin-top: 4rem;
@@ -357,10 +357,10 @@ body,
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0px;
-    color: black;
+    color: white;
     padding: 9px 26px 14px 29px;
     text-transform: none;
-    background: red;
+    background: black;
     border-radius: 2px;
     display: inline-block;
     margin-top: 4rem;
