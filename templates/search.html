@@ -1,144 +1,53 @@
 {% extends "base.html" %} {% block content %}
 
-    <div class="container my-5">
-        <!--Section: Contact v.2-->
-        <section class="mb-4">
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Bill information</h2>x
-            {% for item in object_list %}
-                <!--Section heading-->
-
-                <!--Section description-->
-
-
-                 <!-- Table test -->
-                <table class="blueTable">
-                    <thead>
-                    <tr>
-                        <th>Product ID</th>
-                        <th>Product name</th>
-                        <th>Price</th>
-                        <th>Customer Name</th>
-                        <th>Phone</th>
-                    </tr>
-                    </thead>
-                    <tfoot>
-                    <tr>
-                    </tr>
-                    </tfoot>
-                    <tbody>
-                    <tr>
-                        <td><b>{{ item.ptIdCard }}</b></td>
-                        <td><b>{{ item.ptName }}</b></td>
-                        <td><b>{{ item.ptPrice }}</b></td>
-                        <td><b>{{ item.Name }}</b></td>
-                        <td><b>{{ item.ptPhone }}</b></td>
-                    </tr>
-                    </tbody>
-                </table>
-
-
-
-
-
-
-                <!-- END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <p class="text-left w-responsive mx-auto mb-5">Product's ID : <b>{{ item.ptIdCard }}</b></p>
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-9 mb-md-0 mb-5">
-                        <!--Grid row-->
-                        <div class="row">
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Name: <b>{{ item.Name }}</b></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Product Name: <b>{{ item.ptName }}</b></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="email" class="">Price : <b>{{ item.ptPrice }}</b></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-                        <br>
-                        <!--Grid row-->
-                        <div class="row">
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Phone number: <b>{{ item.ptPhone }}</b></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Product ID: <b>{{ item.ptIdCard }}</b></label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-
-                        <br>
-                        <br>
-                        <br>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-3 text-center">
-                        <h2>ATN Store</h2>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <p>+84334463258</p>
-                            </li>
-                            <li>
-                                <p>atnstore.hcm@gmail.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-            {% endfor %}
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Bill information</h2>x
+        {% for item in object_list %}
+            <!--Section heading-->
+            <!--Section description-->
+            <!-- Table test -->
+            <table class="blueTable">
+                <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product name</th>
+                    <th>Price</th>
+                    <th>Customer Name</th>
+                    <th>Phone</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                </tr>
+                </tfoot>
+                <tbody>
+                <tr>
+                    <td><b>{{ item.ptIdCard }}</b></td>
+                    <td><b>{{ item.ptName }}</b></td>
+                    <td><b>{{ item.ptPrice }}</b></td>
+                    <td><b>{{ item.Name }}</b></td>
+                    <td><b>{{ item.ptPhone }}</b></td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- END -->
+            <div class="col-md-3 text-center">
+                <h2>ATN Store</h2>
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <p>+84334463258</p>
+                    </li>
+                    <li>
+                        <p>atnstore.hcm@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        {% endfor %}
             <div class="text-center">
                 <a class="btn btn-primary" href="/">Go back to home page</a>
             </div>
             <div class="status"></div>
         </section>
-        <!--Section: Contact v.2-->
-    </div>
-
 {% endblock content %}
