@@ -3,13 +3,12 @@
 <div class="container my-5">
     <!--Section: Contact v.2-->
     <section class="mb-4">
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Order Information</h2>x {% for item in object_list %}
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Bill information</h2>x {% for item in object_list %}
         <!--Section heading-->
 
         <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">The Result for Product ID : <b>{{item.ptIdCard}}</b></p>
+        <p class="text-left w-responsive mx-auto mb-5">Product's ID : <b>{{item.ptIdCard}}</b></p>
         <div class="row">
-
             <!--Grid column-->
             <div class="col-md-9 mb-md-0 mb-5">
                 <!--Grid row-->
@@ -45,7 +44,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <label for="name" class="">Telephone Number: <b>{{item.ptPhone}}</b></label>
+                            <label for="name" class="">Phone number: <b>{{item.ptPhone}}</b></label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -69,18 +68,13 @@
 
             <!--Grid column-->
             <div class="col-md-3 text-center">
-                <h2>Store Information</h2>
+                <h2>ATN Store</h2>
                 <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>{{Patient.title}}</p>
+                    <li>
+                        <p>+84334463258</p>
                     </li>
-
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+ 01 234 567 89</p>
-                    </li>
-
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>contact@mdbootstrap.com</p>
+                    <li>
+                        <p>atnstore.hcm@gmail.com</p>
                     </li>
                 </ul>
             </div>
